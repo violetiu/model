@@ -1,0 +1,16 @@
+package org.violetime.tool;
+
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateTool {
+    public  static String getNow(){
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return  simpleDateFormat.format(new Date());
+    }
+    public  static String getName(){
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("HH,mm");
+        return  simpleDateFormat.format(new Date());
+    }
+}

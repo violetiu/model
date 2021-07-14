@@ -1,0 +1,1 @@
+scp -r -p target/platform-1.0.0/WEB-INF/classes/config target/platform-1.0.0/WEB-INF/classes/mapping target/platform-1.0.0/WEB-INF/classes/org target/platform-1.0.0/WEB-INF/classes/script target/platform-1.0.0/WEB-INF/classes/*.xml target/platform-1.0.0/WEB-INF/*.xml ubuntu@www.violetime.com:/tmp/platform/

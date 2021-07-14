@@ -1,0 +1,9 @@
+cp -r -f /tmp/platform/mapping/* WEB-INF/classes/mapping/;
+rm -r -f WEB-INF/classes/org/*;
+cp -r -f /tmp/platform/org/* WEB-INF/classes/org/;
+cp -r -f /tmp/platform/script/* WEB-INF/classes/script/;
+cp -r -f /tmp/platform/config/* WEB-INF/classes/config/;
+cp -r -f /tmp/platform/*.xml WEB-INF/classes/;
+cp -r -f /tmp/platform/*.xml WEB-INF/;
+rm -r -f /tmp/platform/*;
+ps -ef|grep platform;
